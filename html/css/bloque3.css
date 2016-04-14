@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+.bloqueligas{ border:1px solid #E0DEDC; border-radius:15px; background:none repeat scroll 0 0 #EFFFEA; overflow:hidden; padding:10px 0 0 35px;}
+.resligos{ color:#000;; font-family:"Istok Web"; font-size:13px; padding:0 2% 0 0;}
+.resligos p{ clear:both; }
+a.ligos:link, a.ligos:visited, a.ligos:active{ clear:both; color:#487C27; font-family:"Oregano",Arial,Helvetica,sans-serif ; font-size:19px;}
+a.ligos:hover{color:#90BC80; font-family:"Oregano",Arial,Helvetica,sans-serif; font-size:19px;}
+.enlace{ background:url("../bloque3/img/ic_enlace.png") no-repeat scroll left top transparent; height: none !important; padding-top:6px; padding-left:55px; margin:0 0 2%;}

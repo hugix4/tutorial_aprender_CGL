@@ -1,0 +1,190 @@
+/*Estilos Tutorial estrategias de aprendizaje CCH*/
+
+/*Pleca superior bloque 1*/
+.topb1 {
+	width: 100%;
+	height: 95px;
+	background: url(../img/toplineb1.png) no-repeat #573B66 bottom;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	font-size: 1.7rem;
+	color: #FFF;
+	padding-top: 50px;
+	padding-left: 15px;
+}
+/*Pleca superior bloque 2*/
+.topb2 {
+	width: 100%;
+	height: 95px;
+	background: url(../img/toplineb2.png) no-repeat #AB1F54 bottom;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	font-size: 1.7rem;
+	color: #FFF;
+	padding-top: 50px;
+	padding-left: 15px;
+}
+/*Pleca superior bloque 3*/
+.topb3 {
+	width: 100%;
+	height: 95px;
+	background: url(../img/toplineb3.png) no-repeat #F05422 bottom;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	font-size: 1.7rem;
+	color: #FFF;
+	padding-top: 50px;
+	padding-left: 15px;
+}
+/*Pleca superior bloque 4*/
+.topb4 {
+	width: 100%;
+	height: 95px;
+	background: url(../img/toplineb4.png) no-repeat #68A342 bottom;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	font-size: 1.7rem;
+	color: #FFF;
+	padding-top: 50px;
+	padding-left: 15px;
+}
+
+/*Texto*/
+p {
+	font-family: "Istok Web", Verdana, Arial;
+	color: #58595B;
+	font-size: 12px;
+}
+
+/*Por si necesitamos dar espacio entre divs*/
+.aire {
+	height:15px;
+}
+
+.titulo{
+	color:#2D3E66;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	font-size: 2.2rem;
+	padding-top: 15px;
+	padding-left: 15px;
+	}
+	
+.subtitulo{
+	color:#49669E;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	font-size: 1.7rem;
+	}
+	
+
+/*Numeración de páginas ejemplo: 1 de 3*/
+.numeracion{
+	width:955px;
+	height:30px;
+	text-align:center;
+	font-size:10px;
+	color:#999;
+	}
+
+/*Para resaltar frases o palabras (sin marco)*/
+
+.resb1 {
+	color:#573B66;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	font-size: 1.9rem;
+}
+.resb2 {
+	color:#AB1F54;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	font-size: 1.9rem;
+}
+
+.resb3 {
+	color:#F05422;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	font-size: 1.9rem;
+}
+
+.resb4 {
+	color:#68A342;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	font-size: 1.9rem;
+}
+
+/*Iconos*/
+
+.video{
+	width:350px;
+	height:60px;
+	background:url(../img/ic_video.png) no-repeat left top;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	padding-top: 15px;
+	padding-left: 65px;
+	font-size: 24px;
+	color: #487C27;
+	}
+	
+.enlace{
+		width:350px;
+	height:60px;
+	background:url(../img/ic_enlace.png) no-repeat left top;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	padding-top: 15px;
+	padding-left: 65px;
+	font-size: 24px;
+	color: #487C27;
+	}
+.ejercicio{
+	width:350px;
+	height:60px;
+	background:url(../img/ic_ejercicio.png) no-repeat left top;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	padding-top: 15px;
+	padding-left: 65px;
+	font-size: 24px;
+	color: #487C27;
+	}
+.cuestionario{
+	width:350px;
+	height:60px;
+	background:url(../img/ic_cuestionario.png) no-repeat left top;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	padding-top: 15px;
+	padding-left: 65px;
+	font-size: 24px;
+	color: #487C27;
+	}
+.lectura{
+	width:350px;
+	height:60px;
+	background:url(../img/ic_lectura.png) no-repeat left top;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	padding-top: 15px;
+	padding-left: 65px;
+	font-size: 24px;
+	color: #487C27;
+	}
+
+
+
+/*Marco para resaltar frases importantes*/
+.resalte{
+	background: #F6B51D;  
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px; 
+	border-radius: 15px; 
+	padding: 12px; 
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	color:#573B66;  
+	font-size: 1.6rem; 
+	border:2px solid #FFFFFF; 
+	}
+
+
+/*Contenedor de videos*/
+
+.video_cont {  
+	background: #FFFFE1;  
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px; 
+	border-radius: 15px; padding: 10px;  
+	border:4px solid #F6B51D; 
+	-moz-box-shadow: 0px 0px 10px #96BC3D; 
+	-webkit-box-shadow: 0px 0px 10px #96BC3D;   
+	box-shadow: 0px 0px 10px #96BC3D;
+}

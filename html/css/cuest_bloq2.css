@@ -1,0 +1,320 @@
+/*
+We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
+However, this blank file is available if you prefer
+*/
+
+.cuest {
+	color: #AB1D53;
+	font-size: 28px;
+	margin: 20px 0 30px;
+}
+#miform {
+	width: 100%;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 13px;
+	line-height: 15px;
+	color: #58595B;
+}
+#miform label {
+	cursor: auto;
+	display: block;
+	margin-bottom: 6px;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 13px;
+	line-height: 15px;
+	color: #58595B;
+	text-align: left;
+}
+#miform label.radio {
+	background-color: #fce8f0;
+	border-top: 1.5px dashed #ab1d53;
+	border-bottom: 1.5px dashed #ab1d53;
+	float: left;
+	padding: 10px 5px 5px 15px;
+	width: 65%;
+	color: #ab1d53;
+}
+.cajcolum {
+	background-color: #fce8f0;
+	border-top: 1.5px dashed #ab1d53;
+	border-bottom: 1.5px dashed #ab1d53;
+	border-left: none;
+	border-right: none;
+	float: left;
+	padding: 5px 5px 5px 5px;
+	width: 23%;
+	color: #ab1d53;
+}
+.respuestas {
+	background-color: #ededa2;
+	border-top: 1.5px dashed #68a342;
+	border-bottom: 1.5px dashed #68a342;
+	float: left;
+	margin-left: 6px;
+	padding: 5px 14px;
+	width: 13%;
+	color: #487c27;
+	font-weight: bold;
+	text-align: center;
+}
+#enviar {
+}
+#enviar input {
+}
+#envio {
+	display: block;
+	float: left;
+	width: 100%;
+}
+.btnresp {
+	text-align: center;
+	width: 100%;
+}
+.btn.default, .skiplink.default {
+	background: none repeat scroll 0 0 #69a442;
+	border: 1px solid #69a442;
+	color: #FFF;
+}
+.btn.default:hover, .skiplink.default:hover {
+	background: none repeat scroll 0 0 #69a442;
+	border: 1px solid #69a442;
+	color: #FFF;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+.btn.default a, .btn.default input, .btn.default button, .skiplink.default a, .skiplink.default input, .skiplink.default button {
+	color: #FFF;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 13px;
+	line-height: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+.ficha {
+	width: 100%;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 13px;
+	line-height: 15px;
+	color: #58595B;
+	float: left
+}
+.ficha label {
+	cursor: auto;
+	display: block;
+	margin-bottom: 6px;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 13px;
+	line-height: 15px;
+	color: #58595B;
+	text-align: left;
+	font-weight: bold;
+}
+.ficha label.radio {
+	background-color: #F2DAE4;
+	border-top: 1.5px dashed #AB1D53;
+	border-bottom: 1.5px dashed #AB1D53;
+	float: left;
+	padding: 10px 5px 5px 15px;
+	width: 100%;
+	color: #AB1D53;
+	cursor: pointer;
+}
+.plant, .libro, .clasif, .area, .librob, .autor {
+	float: left;
+	background-color: #FFF0F8;
+	border: 2.5px dashed #F2D1E4;
+	padding: 0 10px 15px;
+}
+.plant {
+	width: 20%;
+	margin-right: 30px;
+}
+.libro {
+	width: 35%;
+	margin-right: 30px;
+}
+.area {
+	width: 26%;
+	margin-right: 30px;
+}
+.librob {
+	width: 35%;
+	margin-right: 30px;
+}
+.clasif {
+}
+.pregunta {
+	float: left;
+	width: 100%;
+	margin: 10px auto;
+}
+.field textarea, .field input[type='text'] {
+	border: medium none;
+	background-color: #F2DAE4;
+	box-shadow: none;
+	font-family: "Istok Web";
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+	max-width: 100%;
+	outline: medium none;
+	padding: 10px;
+	resize: none;
+	width: 100%;
+	color: #AB1D53;
+}
+.upper {
+	text-transform: uppercase;
+}
+.correcto {
+	width: 85%;
+	margin: 20px auto;
+	background-color: #E1FCD0;
+	border-top: 1.5px dashed #68A342;
+	border-bottom: 1.5px dashed #68A342;
+	padding: 15px;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 13px;
+	line-height: 16px;
+	color: #173007;
+	text-align: center;
+	font-weight: normal;
+}
+.incorrecto {
+	width: 85%;
+	margin: 20px auto;
+	background-color: #FFEEE9;
+	border-top: 1.5px dashed #E53417;
+	border-bottom: 1.5px dashed #E53417;
+	padding: 15px;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 13px;
+	line-height: 16px;
+	color: #AA3718;
+	text-align: center;
+	font-weight: normal;
+}
+#areas {
+	width: 100%;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 13px;
+	line-height: 15px;
+	color: #58595B;
+}
+#areas label {
+	cursor: auto;
+	display: block;
+	margin-bottom: 6px;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 13px;
+	line-height: 15px;
+	color: #58595B;
+	text-align: left;
+	font-weight: bold;
+}
+#areas label.radio {
+	background-color: #DCD3E2;
+	border-top: 1.5px dashed #573B66;
+	border-bottom: 1.5px dashed #573B66;
+	float: left;
+	padding: 10px 5px 5px 15px;
+	width: 25%;
+	color: #573b66;
+}
+.picker select {
+	font-family: "Istok Web", Verdana, Arial;
+	background: none repeat scroll 0 0 transparent;
+	border: 1px solid #68A342;
+	color: #68A342;
+	cursor: pointer;
+	display: block;
+	font-size: 13px;
+	height: 23px;
+	min-width: 100%;
+	outline: medium none;
+	padding: 2px 10px 2px 1px;
+	position: relative;
+	width: 90%;
+	z-index: 99;
+	font-weight: bold;
+}
+
+.picker:after {
+    content: "";
+}
+.prop {
+	background-color: #DAE6F7;
+	padding: 5px;
+	color: #36507A;
+	font-weight: bold;
+	text-align: center;
+}
+.clasif {
+	color: #DD3407;
+	float: left;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 16px;
+	padding: 5px;
+	text-align: center;
+	width: 20%;
+}
+.tabs .tab-content {
+	background-color: #FFF;
+	border-right: 1.5px dashed #AB1D53;
+	border-left: 1.5px dashed #AB1D53;
+	border-bottom: 1.5px dashed #AB1D53;
+}
+.tabs .tab-nav {
+	border-bottom: 1.5px dashed #AB1D53;
+}
+.tabs .tab-nav > li {
+	box-shadow: 0 1px 0 white;
+	cursor: default;
+	display: inline-block;
+	margin: 0 2.12766% 0 0;
+	padding: 0;
+	top: 1px;
+	width: auto;
+}
+.tabs .tab-nav > li > a {
+	border-color: #AB1D53;
+	border-image: none;
+	border-radius: 4px 4px 0 0;
+	border-style: dashed;
+}
+.col6b {
+	float: right;
+	padding-left: 20px;
+	width: 49%;
+}
+.ficha3 {
+	border-top: 2.5px dotted #68A342;
+	float: left;
+	margin-top: 10px;
+	padding-top: 20px;
+	width: 98%;
+}
+.retro {
+	overflow: hidden;
+}
+.sitio {
+	background-color: #fce8f0;
+	border-top: 1.5px dashed #ab1d53;
+	border-bottom: 1.5px dashed #ab1d53;
+	border-left: none;
+	border-right: none;
+	float: left;
+	width: 5%;
+	color: #ab1d53;
+	margin-right: 3px;
+	margin-top: 15px;
+}
+.over:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+.imglig {
+	margin-bottom: -25px;
+}

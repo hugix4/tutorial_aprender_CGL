@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+#fondologin{background: url(../img/index.png) no-repeat;
+  width:553px;
+  height:525px;  
+  margin-left:-65px;
+  position:relative;
+  float:left;}
+  
+#cajalogin{max-width:300px; height:270px; padding:15px; margin: 25px auto; background-color:#FFF8D7; border-style:double; border-width:3px; border-color:#F6B41D;}
+#cajalogin p {font-family:"Oregano"; font-size:23px; color:#727272; line-height:-1.200em; margin-bottom: 0;}
+
+#cajaintro { 
+    background-color: #F5FCDB;
+    float: right;
+	 margin: -10px 0 25px;
+    padding: 25px 0 26px 30px;
+    width: 100%;
+    float: left;
+}
+	
+	
+#cajaintro p {font-family:"Istok Web"; font-size:14px; color:#727272; line-height: 1.4em; margin-bottom: 10px;}
+
+#cajaintro ol {margin-left: 50px;
+font-family: "Istok Web", Verdana, Arial;
+ color: #58595B;
+ font-size: 13px;
+ padding-left: 40px;
+ padding-right: 0;}
+
+
+/*.field.success input, .field.success .input, .field.success textarea, .field.success .textarea, .field.success .radio span, .field.success .checkbox span, .field.success .picker, .field.danger input, .field.danger .input, .field.danger textarea, .field.danger .textarea, .field.danger .radio span, .field.danger .checkbox span, .field.danger .picker  {*/
+
+form .field input.input{
+    background: none repeat scroll 0 0 #C0EEAA;
+    border-color: #58C026;
+    color: #58C026;
+    transition-duration: 0.2s;
+	float:right;
+	margin-right:-10px;
+	margin-top:-37px;
+	width:180px;
+}
+
+.field .input {
+    border-radius: 4px 4px 4px 4px;
+    font-size: 1rem;
+    height: 25px;
+    line-height: 25px;  
+    padding: 0 10px;
+    position: relative;
+    width: 160px;}
+
+.field {margin-top: 7px; margin-bottom: -15px;}
+	
+.field.danger:after {content: "";}
+.field.success:after {content: "";}
+	
+.btn.default, .skiplink.default {
+    background: none repeat scroll 0 0 #F5FCDB;
+    border: 1px solid #58C026;
+    color: #555555;
+    font-size: 15px;
+    width: 100px;
+	font-family: "Istok Web";}
+	
+.btn.medium, .skiplink.medium {
+    float: right;
+    height: 30px;
+    line-height: 35px;
+    margin-right: 90px;
+    margin-top: 1px;}
+form{
+    margin: 0;
+}
+#ui-datepicker-div{
+	z-index:5 !important;
+	font-size:14px;
+}
+.ui-datepicker td span, .ui-datepicker td a,.ui-datepicker th{
+	padding:0 !important;
+}
+
+#alum{
+    background: url("../img/login_alum.png") no-repeat scroll 0 0 transparent;
+    height: 34px;
+    left: -28px;
+    position: relative;
+    top: -10px;
+    width: 320px;
+}
+
+#prof{
+    background: url("../img/login_prof.png") no-repeat scroll 0 0 transparent;
+    height: 34px;
+    left: -28px;
+    position: relative;
+    top: 30px;
+    width: 320px;
+}
+#profesor{
+    margin-top:33px;
+}
+.instlog {
+	width: 95%;
+	margin: 29px auto;
+	background-color: #DCD3E2;
+	border: 2.5px dashed #573B66;
+    padding: 10px;
+	color: #573b66;
+}
+.instlog p {
+	color: #573b66;
+	font-weight: normnal;
+    font-family: "Istok Web";
+    font-size: 14px;
+    line-height: 1.4em;
+}

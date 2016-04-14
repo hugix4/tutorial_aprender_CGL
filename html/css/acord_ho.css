@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.accordionWrapper {
+	display: inline-block;
+	background-color: #fff;
+	overflow: hidden;
+	height: 500px;
+}
+.accordionWrapper img {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+.accordionWrapper div {
+	display: inline;
+	float: left;
+	margin: 20px auto;
+}
+.accordionWrapper div.title {
+	cursor: pointer;
+}
+.accordionWrapper div.content {
+	display: none;
+}
+.accordionWrapper div.content img {
+    height: 460px;
+    width: 550px;
+}
+.over:hover {
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+.temas {
+    cursor: auto;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 14px;
+	line-height: 25px;
+	color: #4c4c4e;
+	text-align: left;
+	width: 20%;
+	padding-left: 300px;
+	padding-top:150px;	
+	position: relative;
+}
+

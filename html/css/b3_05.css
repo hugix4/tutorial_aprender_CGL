@@ -1,0 +1,174 @@
+@charset "iso-8859-2";
+/* CSS Document */
+.chacamillas {
+    background: url("../bloque3/img/b3_02_02.png") no-repeat scroll 8px 5px #ED7636;
+    border-bottom: 2px dotted;
+    margin: 0 25px 10px 0;
+	border-radius:18px 18px 0 0;
+}
+.enlace{ background:url("../bloque3/img/ic_enlace.png") no-repeat scroll left top transparent; height: 40px; padding-top:6px; padding-left:55px;}
+
+.colubasmitad{ width:50%; float:left;}
+/*.colubasmitad p{ padding: 0 10% 0 0;}*/
+a.ligos:link, a.ligos:visited, a.ligos:active{ color:#487C27; font-family:"Oregano",Arial,Helvetica,sans-serif ; font-size:24px;}
+a.ligos:hover{color:#90BC80; font-family:"Oregano",Arial,Helvetica,sans-serif; font-size:24px;}
+
+#icononishos{ border-radius:25px; float:right; margin:0 40px 0 0;}
+#icononishos img{ border-radius:25px;}
+.palabritos{ width:50%; position:absolute; top:215px; left:5px; font-size: 27px; line-height: 31px; text-align:center;}
+
+.liston li{ font-size:13px; font-family: "Istok Web"; /*width:80%;*/ line-height:18px; /*border-bottom:1px dotted;*/ margin:0 0 10px 55px; padding:5px 0;}
+
+.chacamillas p{font-family:"Oregano", Arial, Helvetica, sans-serif;font-size:25px;color: white;padding: 10px 30px 0px 100px;line-height:27px;}
+img#primer, img#segundo, img#tercer, img#cuarto { cursor:pointer;}
+img#primer:hover, img#segundo:hover, img#tercer:hover, img#cuarto:hover { box-shadow:1px 1px 6px #000000}
+
+.resligos{ color:#F05422; font-family:"Oregano",Arial,Helvetica,sans-serif; font-size:16px;}
+
+/*OVER TEXTO*/
+#primerspan {
+    display: none;
+}
+
+a#primer:hover ~ #primerspan {
+    display: block;
+}
+
+#segundospan {
+    display: none;
+}
+
+a#segundo:hover ~ #segundospan {
+    display: block;
+}
+
+#tercerspan {
+    display: none;
+}
+
+a#tercer:hover ~ #tercerspan {
+    display: block;
+}
+
+#cuartospan {
+    display: none;
+}
+
+a#cuarto:hover ~ #cuartospan {
+    display: block;
+}
+
+/*/*/
+
+#slider{ margin:0 auto; font-family: "Istok Web",Verdana,Arial; font-size:13px;}
+.contimg{ height:200px; margin:0 0 15px;}
+.contimg img{ box-shadow:1px 2px 9px #000000; max-height:190px; }
+/* Easy Slider */
+    /* image replacement */
+        .graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
+            margin:0;
+            padding:0;
+            display:block;
+            overflow:hidden;
+            text-indent:-8000px;
+            }
+    /* // image replacement */
+			
+/*	#container{	
+		margin:0 auto;
+		position:relative;
+		text-align:left;
+		width:696px;
+		background:#fff;		
+		margin-bottom:2em;
+		}	
+	#header{
+		height:80px;
+		line-height:80px;
+		background:#5DC9E1;
+		color:#fff;
+		}				
+	#content{
+		position:relative;
+		}			
+*/
+
+	#slider ul, #slider li,
+	#slider2 ul, #slider2 li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider2{margin-top:1em;}
+	#slider li, #slider2 li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:400px;
+		height:250px;
+		overflow:hidden;
+		background:#F0FDFF;
+		text-align: center;
+		padding: 20px 0 0;
+		border-top:2.5px dashed #008CA9;
+		border-bottom:1.5px dashed #008CA9;
+		line-height:20px;
+		}	
+	#prevBtn, #nextBtn,
+	#slider1next, #slider1prev{ 
+		display:block;
+		width:30px;
+		height:77px;
+		position:absolute;
+		left:-30px;
+		top:71px;
+		z-index:1000;
+		}	
+	#nextBtn, #slider1next{ 
+		left:696px;
+		}														
+	#prevBtn a, #nextBtn a,
+	#slider1next a, #slider1prev a{  
+		display:block;
+		position:relative;
+		width:30px;
+		height:77px;
+		background:url(../images/btn_prev.gif) no-repeat 0 0;	
+		}	
+	#nextBtn a, #slider1next a{ 
+		background:url(../images/btn_next.gif) no-repeat 0 0;	
+		}	
+		
+	/* numeric controls */	
+
+	ol#controls{
+		margin:1em 0;
+		padding:0;
+		height:28px;	
+		}
+	ol#controls li{
+		margin:0 2px 0 0; 
+		padding:0;
+		float:left;
+		list-style:none;
+		height:28px;
+		line-height:28px;
+		}
+	ol#controls li a{
+		float:left;
+		height:28px;
+		line-height:28px;
+		border:1px solid #ccc;
+		background:#DAF3F8;
+		color:#555;
+		padding:0 10px;
+		text-decoration:none;
+		}
+	ol#controls li.current a{
+		background:#5DC9E1;
+		color:#fff;
+		}
+	ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
+	
+/* // Easy Slider */

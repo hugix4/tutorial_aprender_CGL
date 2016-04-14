@@ -1,0 +1,246 @@
+@charset "UTF-8";
+.resb1 {
+	font-size: 1.5rem;
+	line-height: 30px;
+}
+.der {
+	float: left;
+	margin-left: 20px;
+	padding-left: 20px;
+	width: 32%;
+	border-left: 2.5px dashed #573b66;
+}
+.izq {
+	width: 61%;
+	float: left;
+	margin-left: 30px;
+	padding-bottom: 40px;
+	border-bottom: 2px dashed #573B66;
+}
+.derb {
+	float: left;
+	width: 40%;
+	margin-left: 20px;
+	padding-left: 20px;
+	margin-right: 50px;
+	border-left: 2.5px dashed #573b66;
+}
+.izqb {
+	float: left;
+	width: 40%;
+	margin-left: 50px;
+	padding-left: 20px;
+	margin-right: 50px;
+	border-left: 2.5px dashed #573b66;
+}
+.derc {
+	float: left;
+	width: 40%;
+	margin-left: 20px;
+	padding-left: 30px;
+	margin-bottom: 20px;
+	border-left: 2.5px dashed #573b66;
+}
+.izqc {
+	float: left;
+	margin-right: 30px;
+	padding-top: 30px;
+	margin-bottom: 20px;
+	width: 51%;
+}
+.colcentral {
+	float: left;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 70%;
+}
+.colcentral2 {
+	width: 100%;
+}
+.cole ul {
+}
+.cole li {
+	font-family: "Istok Web", Verdana, Arial;
+	color: #58595B;
+	font-size: 13px;
+	padding-left: 40px;
+	padding-right: 0;
+}
+.pieslider {
+	font-family: "Istok Web", Verdana, Arial;
+	color: #58595B;
+	font-size: 11px;
+	text-align: left;
+	font-weight: bold;
+	padding-top: 120px;
+}
+.recuadro {
+	width: 100%;
+	float: left;
+	background: #eee6f4;
+	margin: 20px auto;
+	border-top: 1.5px dashed #573b66;
+	border-bottom: 1.5px dashed #573b66;
+}
+.enlaceb {
+	background: url("../img/ic_enlace.png") no-repeat scroll left top transparent;
+	color: #573b66;
+	font-family: "Oregano", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	height: 55px;
+	padding-bottom: 15px;
+	padding-left: 70px;
+	padding-top: 15px;
+	width: 100%;
+}
+.taller {
+	background: url("../bloque1/img/talleres.png") no-repeat scroll right top transparent;
+	float: left;
+	height: 40px;
+	margin: 0 20px 0 2px;
+	width: 7%;
+}
+.mat {
+	background: url("../bloque1/img/mate.png") no-repeat scroll right top transparent;
+	float: left;
+	height: 40px;
+	margin: 0 20px 0 2px;
+	width: 7%;
+}
+.exp {
+	background: url("../bloque1/img/exper.png") no-repeat scroll right top transparent;
+	float: left;
+	height: 40px;
+	margin: 0 20px 0 2px;
+	width: 7%;
+}
+.hist {
+	background: url("../bloque1/img/historico.png") no-repeat scroll right top transparent;
+	float: left;
+	height: 40px;
+	margin: 0 20px 0 2px;
+	width: 7%;
+}
+.over:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+#mostrarocultar {
+	background: url("../bloque1/img/b1_02_02.png") no-repeat scroll left top transparent;
+	height: 372px;
+	margin: 20px auto;
+	width: 700px;
+	overflow: hidden;
+}
+#aprender {
+	height: 112px;
+	left: 123px;
+	position: relative;
+	top: 34px;
+	width: 111px;
+}
+#hacer {
+	height: 130px;
+	left: 50px;
+	position: relative;
+	top: 1px;
+	width: 128px;
+}
+#ser {
+	bottom: 102px;
+	height: 148px;
+	left: 162px;
+	position: relative;
+	width: 148px;
+}
+#opc {
+	float: left;
+	width: 48%;
+}
+#div1 {
+	color: #4c4c4e;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 16px;
+	padding: 15px;
+	width: 50%;
+	float: left;
+	background: #fff6d2;
+	border-left: 1.5px dashed #F4B31A;
+	border-right: 1.5px dashed #F4B31A;
+}
+.apren {
+	color: #f6b41d;
+	font-family: "Oregano", Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+#div2 {
+	color: #ef5524;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 16px;
+	padding: 15px;
+	width: 50%;
+	float: left;
+	background: #fff4e3;
+	border-left: 1.5px dashed #ef5524;
+	border-right: 1.5px dashed #ef5524;
+}
+.hac {
+	color: #ef5524;
+	font-family: "Oregano", Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+#div3 {
+	color: #67a242;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 16px;
+	padding: 15px;
+	width: 50%;
+	float: left;
+	background: #e8ffd9;
+	border-left: 1.5px dashed #67a242;
+	border-right: 1.5px dashed #67a242;
+}
+.ser {
+	color: #67a242;
+	font-family: "Oregano", Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+.inst {
+	float: left;
+	margin-bottom: -6px;
+	margin-top: 20px;
+	width: 100%;
+}
+a.b1:link {
+    color: #69A300;
+    font-family: "Oregano",Verdana,Arial;
+    font-size: 20px;
+	font-weight:normal;
+}
+
+a.b1:hover {
+    color: #50700A;
+    font-family: "Oregano",Verdana,Arial;
+    font-size: 20px;
+	font-weight:normal;
+}
+
+a.b1:visited {
+    color: #A8A00E;
+    font-family: "Oregano",Verdana,Arial;
+    font-size: 20px;
+	font-weight:normal;
+}
+.videin {
+	width: 100%;
+}
+.palomito {
+    margin: 0 20px 33px 10px;
+}
+.palomitob {
+    background: url("../img/tic.png") no-repeat scroll right top transparent;
+    float: left;
+    height: 20px;
+    margin: 0 20px 0 10px;
+    width: 20px;
+}

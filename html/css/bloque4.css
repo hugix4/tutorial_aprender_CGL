@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+.col1 {   float: left;
+    padding-right: 15px;
+    width: 63%;}
+
+.col2 {
+    float: right;
+    margin-top: -150px;
+    width: 37%;
+}
+
+.col3 {
+    float: left;
+    width: 100%;
+}
+
+.col4 {
+    margin-right:auto;
+    margin-left: auto;
+    width: 75%;
+}
+
+.colder {
+    border-left: 4px dotted #328AAA;
+    float: left;
+    height: 425px;
+    margin-left: -140px;
+    margin-top: 72px;
+    padding-left: 25px;
+    padding-top: 25px;
+    width: 35%;
+}
+
+.colizq {
+    float: left;
+    margin-left: 120px;
+    width: 65%;
+}
+
+.colcentral {
+    margin-right:auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.resb5chi {
+	color: #3A5400;
+	font-family: "Oregano", Arial, Helvetica, sans-serif;
+	font-size: 1.1rem;
+}
+
+.list li {
+ font-family: "Istok Web", Verdana, Arial;
+ color: #58595B;
+ font-size: 13px;
+ padding-left: 40px;
+ padding-right: 0;
+}
+
+a.b4:link {
+    color: #98AE3A;
+    font-family: "Oregano",Verdana,Arial;
+    font-size: 20px;
+	font-weight:normal;
+}
+
+a.b4:hover {
+    color: #3C6631;
+    font-family: "Oregano",Verdana,Arial;
+    font-size: 20px;
+	font-weight:normal;
+}
+
+a.b4:visited {
+    color: #91B03D;
+    font-family: "Oregano",Verdana,Arial;
+    font-size: 20px;
+	font-weight:normal;
+}
+
+a.b4:active {
+	color: #98AE3A;
+	font-family: "Oregano",Verdana,Arial;
+    font-size: 20px;
+	font-weight:normal;
+}
+
+
+
+.cajita {
+    background: url("../img/res.png") repeat scroll 0 0 transparent;
+    border-bottom: 3px dotted #328AAA;
+    border-radius: 18px 18px 0 0;
+    margin: 0 290px 25px;
+    width: 65%;
+    padding: 20px;
+}
+
+.cajita2 {
+     background: url("../bloque4/img/b4_01_03.png") repeat scroll 0 0 transparent;
+    border-radius: 0 0 18px 18px;
+    border-top: 2px dotted #573B66;
+    margin: 177px 0 0 600px;
+    padding: 10px 0 1px 55px;
+    width: 36%;}
+
+.cajita2 a:link {color: #008CA9; font-family: "Oregano",Verdana,Arial; font-size: 20px; font-weight: normal; text-shadow: 0.3px 0.3px 0.3px #4C4C4E;}
+.cajita2 a:hover {color: #6BE8F9; font-family: "Oregano",Verdana,Arial; font-size: 20px; font-weight: normal; text-shadow: 0.3px 0.3px 0.3px #4C4C4E;}
+.cajita2 a:visited {color: #015560; font-family: "Oregano",Verdana,Arial; font-size: 20px; font-weight: normal; text-shadow: 0.3px 0.3px 0.3px #4C4C4E;}
+	
+.cajita3 {
+    background: url("http://tutorial.cch.unam.mx/bloque4/img/xb4_01_03.png.pagespeed.ic.CV58YbtpgS.png") repeat scroll 0 0 transparent;
+    border: 3px dotted #D4C7DD;
+    border-radius: 18px 18px 18px 18px;
+    float: left;
+    margin: 40px 0 0 5px;
+    padding: 15px 0 2px 20px;
+    width: 25%;}	
+	
+.cajita3 a:link {color: #008CA9; font-family: "Oregano",Verdana,Arial; font-size: 20px; font-weight: normal; text-shadow: 0.3px 0.3px 0.3px #4C4C4E;}
+.cajita3 a:hover {color: #6BE8F9; font-family: "Oregano",Verdana,Arial; font-size: 20px; font-weight: normal; text-shadow: 0.3px 0.3px 0.3px #4C4C4E;}
+.cajita3 a:visited {color: #015560; font-family: "Oregano",Verdana,Arial; font-size: 20px; font-weight: normal; text-shadow: 0.3px 0.3px 0.3px #4C4C4E;}
+
+.imagenSlider {
+    float: left;
+    margin-left: 20px;
+    width: 40%;
+}
+
+.colSlider {
+     border-left: 2px dotted #328AAA;
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+    padding-left: 15px;
+    width: 50%;
+}
+
+.colAcordeon {
+    background: none repeat scroll 0 0 #F8FFE6;
+    border-left: 2px dotted #69A300;
+    float: right;
+    height: 260px;
+    margin: -285px -10px;
+    padding: 0 20px;
+    width: 30%;
+}
+
+.palomito {margin: 9px 8px 0 -10px;}
+
+.accordionholder {
+    margin: 20px 10px;
+    max-width: 640px;}
+	
+.enlace2 {
+background: url("../bloque3/img/ic_enlace.png") no-repeat scroll left top transparent;
+height: 40px;
+padding-top: 6px;
+padding-left: 55px;}	
+
+.over:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=70);}

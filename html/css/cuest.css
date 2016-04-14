@@ -1,0 +1,77 @@
+/*
+We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
+However, this blank file is available if you prefer
+*/
+
+.cuest {
+	   color: #AB1D53;
+    font-size: 28px;
+    margin: 20px 0 30px;
+}
+#miform {
+	width: 100%;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 13px;
+	line-height: 15px;
+	color: #58595B;
+}
+#miform label {
+    cursor: auto;
+    display: block;
+    margin-bottom: 6px;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 13px;
+	line-height: 15px;
+	color: #58595B;
+	text-align: left;
+}
+#miform label.radio {
+    background-color: #fce8f0;
+	border-top: 1.5px dashed #ab1d53;
+    border-bottom: 1.5px dashed #ab1d53;
+    float: left;
+    padding: 10px 5px 5px 15px;
+    width: 65%;
+	color: #ab1d53;
+ }
+.respuestas {
+	background-color: #ededa2;
+    border-top: 1.5px dashed #68a342;
+	border-bottom: 1.5px dashed #68a342;
+    float: left;
+    margin-left: 6px;
+    padding: 5px 14px;
+    width: 13%;
+	color: #487c27;
+	font-weight: bold;
+	text-align: center;
+}
+#enviar{}
+#enviar input{}
+#envio{display: block;float: left; width: 100%;}
+
+.btnresp {
+    text-align: center;
+    width: 100%;	
+}
+.btn.default, .skiplink.default {
+    background: none repeat scroll 0 0 #69a442;
+    border: 1px solid #69a442;
+    color: #FFF;
+}
+.btn.default:hover, .skiplink.default:hover {
+    background: none repeat scroll 0 0 #69a442;
+    border: 1px solid #69a442;
+    color: #FFF;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+.btn.default a, .btn.default input, .btn.default button, .skiplink.default a, .skiplink.default input, .skiplink.default button {
+	color: #FFF;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 13px;
+	line-height: 15px;
+	text-align: center;
+	font-weight: bold;
+}

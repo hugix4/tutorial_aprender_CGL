@@ -1,0 +1,188 @@
+/*Estilos Tutorial estrategias de aprendizaje CCH*/
+
+/*Pleca superior bloque 1*/
+
+
+.col1 { width:69%;
+float:left;
+padding-right:15px;
+}
+.col2 { width:30%;
+float:right;
+}
+
+.col3 { width:30%;
+float:right;
+
+}
+.col4 { width:69%;
+float:left;
+}
+
+.col5 { width:49%;
+float:left;
+}
+
+.col6 { width:49%;
+float:right;
+padding-left:55px;
+}
+
+.col7 { width:49%;
+float:right;
+}
+
+.col8 { width:39%;
+float:left;
+}
+
+.col9 { width:59%;
+float:right;
+alignment-adjust:central;
+
+}
+
+.contang{
+	width:100%;}
+
+.resb2chi {
+	color:#AB1F54;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	font-size: 1.1rem;
+}
+
+.resb2meb {
+	color:#573B66;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	font-size: 1.2rem;
+}
+
+.cuesttext{
+display: inline;
+	color:#573B66;
+	font-family: Oregano, Arial, Helvetica, sans-serif;
+	font-size: 1.2rem;
+	text-align:start;
+}
+
+.colum1{
+	width:43%;
+	margin-left:50px;
+	float:left;
+	background:url(../img/bg02.png); 
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px; 
+	border-radius: 15px; 
+	padding: 15px; 
+	color:#573B66;  
+	font-size: 1.6rem; 
+	border:2px solid #328AAA; 
+
+}
+
+.colum2{
+	width:43%;
+	margin-right:50px;
+	float:right;
+	background:url(../img/bg3.png); 
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px; 
+	border-radius: 15px; 
+	padding: 15px; 
+	color:#573B66;  
+	font-size: 1.6rem; 
+	border:2px solid #328AAA; 
+}
+
+
+
+.lecturano {
+
+	background: url(../img/ic_lectura.png) no-repeat left top;
+/*	font-family: Oregano, Arial, Helvetica, sans-serif;*/
+	padding-top: 15px;
+	padding-left: 65px;
+	/*font-size: 24px;*/
+	color: #487C27;
+}
+
+.bloquecols {
+	width:100%;
+
+	}
+
+.blo1{
+	width:33%;
+		float:left;
+			border: 2.5px dashed #AB1F54;
+			padding:5px;
+			height:520px;
+		
+						background:#FFF0F8;
+
+	}
+.blo2{
+	width:33%;
+		float:left;
+			border-bottom: 2px dashed #AB1F54;
+			border-top:2px dashed #AB1F54;
+			padding:5px;
+			height:520px;
+
+
+	}
+.blo3{width:33%;
+	float:left;
+				border: 2px dashed #AB1F54;
+				padding:5px;
+				height:520px;
+			background:#FFF0F8;
+}
+
+
+.blo21{
+	width:33%;
+		float:left;
+			border: 2.5px dashed #AB1F54;
+			padding:5px;
+			height:420px;
+		
+						background:#FFF0F8;
+
+	}
+.blo22{
+	width:33%;
+		float:left;
+			border-bottom: 2px dashed #AB1F54;
+			border-top:2px dashed #AB1F54;
+			padding:5px;
+			height:420px;
+
+
+	}
+.blo23{width:33%;
+	float:left;
+				border: 2px dashed #AB1F54;
+				padding:5px;
+				height:420px;
+			background:#FFF0F8;
+}
+.retrocue {
+	width:80%;
+	padding:10px;
+	border: 2px solid #AB1F54;
+	color: #333;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background: url(../img/white_wall.png) !important;
+
+	}
+	
+
+
+a.ligos:link, a.ligos:visited, a.ligos:active{ color:#487C27; font-family:Oregano,Arial,Helvetica,sans-serif ; font-size:24px;}
+a.ligos:hover{color:#90BC80; font-family:Oregano,Arial,Helvetica,sans-serif; font-size:24px;}
+
+.resligos{ color:#639; font-family:Oregano,Arial,Helvetica,sans-serif; font-size:18px;}
+

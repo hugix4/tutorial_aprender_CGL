@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+#areas {
+	width: 100%;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 13px;
+	line-height: 15px;
+	color: #58595B;
+}
+#areas label {
+    cursor: auto;
+    display: block;
+    margin-bottom: 6px;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 13px;
+	line-height: 15px;
+	color: #58595B;
+	text-align: left;
+	font-weight: bold;
+}
+#areas label.radio {
+    background-color: #DCD3E2;
+	border-top: 1.5px dashed #573B66;
+    border-bottom: 1.5px dashed #573B66;
+    float: left;
+    padding: 10px 5px 5px 15px;
+    width: 25%;
+	color: #573b66;
+ }
+ 
+.pregunta {
+	float: left;
+	width: 100%;
+	margin: 10px auto;
+}
+.btnresp {
+    text-align: center;
+    width: 100%;	
+}
+.btn.default, .skiplink.default {
+    background: none repeat scroll 0 0 #69a442;
+    border: 1px solid #69a442;
+    color: #FFF;
+}
+.btn.default:hover, .skiplink.default:hover {
+    background: none repeat scroll 0 0 #69a442;
+    border: 1px solid #69a442;
+    color: #FFF;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+.btn.default a, .btn.default input, .btn.default button, .skiplink.default a, .skiplink.default input, .skiplink.default button {
+	color: #FFF;
+	font-family: "Istok Web", Verdana, Arial;
+	font-size: 13px;
+	line-height: 15px;
+	text-align: center;
+	font-weight: bold;
+}

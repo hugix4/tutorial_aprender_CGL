@@ -1,0 +1,112 @@
+@charset "iso-8859-2";
+/* CSS Document */
+
+#contenedors{ width:100%; position:relative;}
+.flotadores, #slider{ z-index:2;}
+#contenedors img{ position:relative; z-index:1;}
+#contenedors h1{ font-family:"Oregano"; font-size:50px; color:#F3E8D6;}
+#contenedors h2{ font-family:"Oregano"; font-size:28px; color:#F3E8D6;}
+#contenedors p{ font-family:"Istok Web"; font-size:13px; color:#F3E8D6; padding: 0 25px 0 0; line-height:16px;}
+.flotadores {position: absolute;}
+#nombrebloque{top:70%; left:53%;}
+#bajonombre{left:53%; top:85%;}
+#descripcion{left:53%; top:5%;}
+#slider{ position:absolute;}
+/* Easy Slider */
+/*	#container{	
+		margin:0 auto;
+		position:relative;
+		text-align:left;
+		width:696px;
+		background:#fff;		
+		margin-bottom:2em;
+		}	
+*/    /* image replacement */
+        .graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
+            margin:0;
+            padding:0;
+            display:block;
+            overflow:hidden;
+            text-indent:-8000px;
+            }
+
+
+	#slider ul, #slider li,
+	#slider2 ul, #slider2 li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider2{margin-top:1em;}
+	#slider li, #slider2 li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/
+		width:380px; height:200px;
+		line-height:100%;
+		overflow:hidden; 
+		font-family:"Oregano";
+		font-size:40px;
+		text-align:center;
+		}	
+
+	
+/* // Easy Slider */
+
+/*Navegación*/
+
+.naveg {
+	width: 100%;
+	height: 70px;
+	font-family: "Istok Web", Verdana, Arial;
+	font-weight: bold;
+	color: #68A342;
+	font-size: 12px;
+}
+.ant {
+	width: 50%;
+	float: left;
+	text-align: left;
+	background: url(../img/ant.png) no-repeat left;
+	padding-left: 25px;
+}
+.sig {
+	width: 50%;
+	float: right;
+	text-align: right;
+	background: url(../img/sig.png) no-repeat right;
+	padding-right: 25px;
+}
+/*Ligas*/
+
+a:link {
+	font-family: "Istok Web", Verdana, Arial;
+	color: #67A242;
+	font-size: 13px;
+	color: #3B661F;
+	font-weight: bold;
+}
+a:active {
+	font-family: "Istok Web", Verdana, Arial;
+	color: #98AE3A;
+	font-size: 13px;
+	color: #68A342;
+	font-weight: bold;
+}
+a:hover {
+	font-family: "Istok Web", Verdana, Arial;
+	color: #3C6631;
+	font-size: 13px;
+	color: #3C6631; 
+	font-weight: bold;
+}
+a:visited {
+	font-family: "Istok Web", Verdana, Arial;
+	color: #91B03D;
+	font-size: 13px;
+	color: #91B03D;
+	font-weight: bold;
+}
+
+/*Ligas*/
